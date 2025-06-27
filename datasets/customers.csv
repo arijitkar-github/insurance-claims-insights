@@ -1,0 +1,101 @@
+customer_id,name,join_date,country
+1,Customer1,2021-01-01,India
+2,Customer2,2021-01-11,USA
+3,Customer3,2021-01-21,Australia
+4,Customer4,2021-01-31,Australia
+5,Customer5,2021-02-10,Brazil
+6,Customer6,2021-02-20,South Korea
+7,Customer7,2021-03-02,Australia
+8,Customer8,2021-03-12,India
+9,Customer9,2021-03-22,Canada
+10,Customer10,2021-04-01,Germany
+11,Customer11,2021-04-11,Brazil
+12,Customer12,2021-04-21,France
+13,Customer13,2021-05-01,Japan
+14,Customer14,2021-05-11,Japan
+15,Customer15,2021-05-21,UK
+16,Customer16,2021-05-31,France
+17,Customer17,2021-06-10,Brazil
+18,Customer18,2021-06-20,Brazil
+19,Customer19,2021-06-30,Japan
+20,Customer20,2021-07-10,UK
+21,Customer21,2021-07-20,India
+22,Customer22,2021-07-30,South Korea
+23,Customer23,2021-08-09,Japan
+24,Customer24,2021-08-19,South Korea
+25,Customer25,2021-08-29,Germany
+26,Customer26,2021-09-08,Australia
+27,Customer27,2021-09-18,USA
+28,Customer28,2021-09-28,Australia
+29,Customer29,2021-10-08,India
+30,Customer30,2021-10-18,USA
+31,Customer31,2021-10-28,Canada
+32,Customer32,2021-11-07,Australia
+33,Customer33,2021-11-17,Japan
+34,Customer34,2021-11-27,UK
+35,Customer35,2021-12-07,Australia
+36,Customer36,2021-12-17,Australia
+37,Customer37,2021-12-27,Australia
+38,Customer38,2022-01-06,Brazil
+39,Customer39,2022-01-16,USA
+40,Customer40,2022-01-26,UK
+41,Customer41,2022-02-05,South Korea
+42,Customer42,2022-02-15,South Korea
+43,Customer43,2022-02-25,USA
+44,Customer44,2022-03-07,Germany
+45,Customer45,2022-03-17,Brazil
+46,Customer46,2022-03-27,Australia
+47,Customer47,2022-04-06,Canada
+48,Customer48,2022-04-16,Brazil
+49,Customer49,2022-04-26,Canada
+50,Customer50,2022-05-06,USA
+51,Customer51,2022-05-16,USA
+52,Customer52,2022-05-26,Germany
+53,Customer53,2022-06-05,India
+54,Customer54,2022-06-15,India
+55,Customer55,2022-06-25,France
+56,Customer56,2022-07-05,Japan
+57,Customer57,2022-07-15,Germany
+58,Customer58,2022-07-25,UK
+59,Customer59,2022-08-04,Germany
+60,Customer60,2022-08-14,South Korea
+61,Customer61,2022-08-24,Japan
+62,Customer62,2022-09-03,UK
+63,Customer63,2022-09-13,UK
+64,Customer64,2022-09-23,Brazil
+65,Customer65,2022-10-03,South Korea
+66,Customer66,2022-10-13,South Korea
+67,Customer67,2022-10-23,Australia
+68,Customer68,2022-11-02,France
+69,Customer69,2022-11-12,Brazil
+70,Customer70,2022-11-22,Canada
+71,Customer71,2022-12-02,USA
+72,Customer72,2022-12-12,Australia
+73,Customer73,2022-12-22,India
+74,Customer74,2023-01-01,South Korea
+75,Customer75,2023-01-11,Germany
+76,Customer76,2023-01-21,Germany
+77,Customer77,2023-01-31,France
+78,Customer78,2023-02-10,Germany
+79,Customer79,2023-02-20,Germany
+80,Customer80,2023-03-02,Australia
+81,Customer81,2023-03-12,Germany
+82,Customer82,2023-03-22,Germany
+83,Customer83,2023-04-01,Japan
+84,Customer84,2023-04-11,Germany
+85,Customer85,2023-04-21,Australia
+86,Customer86,2023-05-01,Brazil
+87,Customer87,2023-05-11,India
+88,Customer88,2023-05-21,India
+89,Customer89,2023-05-31,USA
+90,Customer90,2023-06-10,UK
+91,Customer91,2023-06-20,India
+92,Customer92,2023-06-30,South Korea
+93,Customer93,2023-07-10,Australia
+94,Customer94,2023-07-20,USA
+95,Customer95,2023-07-30,India
+96,Customer96,2023-08-09,USA
+97,Customer97,2023-08-19,UK
+98,Customer98,2023-08-29,Canada
+99,Customer99,2023-09-08,Germany
+100,Customer100,2023-09-18,Canada
