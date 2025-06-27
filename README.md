@@ -1,21 +1,58 @@
-### Running via Docker
+# Insurance Claims Insights with PostgreSQL
 
-If you don’t have PostgreSQL installed locally, spin up a container:
+🚀 **Project Objective**  
+To build a cloud‑ready analytics lab on PostgreSQL that models an insurance‑claims workflow, ingests CSV data, and delivers advanced SQL insights and data quality checks.
 
-```bash
-# Pull and run Postgres 14
-docker pull postgres:14
-docker run --name pg-insights \
-  -e POSTGRES_PASSWORD=postgres \
-  -p 5432:5432 \
-  -d postgres:14
+---
 
-# Load schema and data
-cat sql/schema.sql | docker exec -i pg-insights psql -U postgres
-docker cp datasets/. pg-insights:/datasets
-docker exec -i pg-insights psql -U postgres -d insurance_db < sql/insert_data.sql
+🏗️ **Schema Overview**  
+- **Customers**: Master data with demographics  
+- **Agents**: Sales reps and regions  
+- **Policies**: Links customers to agents, covers term and premium  
+- **Claims**: Events tied to policies, with status and fraud flags  
 
-# Run sample queries
-docker exec -i pg-insights psql -U postgres -d insurance_db -f sql/complex_queries.sql
-docker exec -i pg-insights psql -U postgres -d insurance_db -f sql/health_checks.sql
+---
+
+⚙️ **Technologies Used**  
+| Tool         | Purpose                                |
+|--------------|----------------------------------------|
+| PostgreSQL   | Relational database                    |
+| Docker       | Containerized Postgres for portability |
+| SQL          | DDL, DML, complex queries              |
+| Git & GitHub | Version control and collaboration      |
+| CSV          | Source data exports                    |
+
+---
+
+🔍 **Key Features**  
+- ✅ Multi‑table design with foreign‑key relationships  
+- ✅ Bulk data loading via `COPY` from CSVs  
+- ✅ Analytical queries: joins, CTEs, window functions  
+- ✅ Data health checks and fraud‑flag analysis  
+- ✅ Migration script for schema evolution  
+
+---
+
+📁 **Repo Structure**  
+
+insurance-claims-insights/
+├── datasets/ # Raw CSV exports
+├── diagrams/ # ERD diagram & sample outputs
+├── sql/ # All SQL scripts
+│ ├── schema.sql # CREATE DATABASE & TABLES
+│ ├── insert_data.sql # CSV → table loads
+│ ├── complex_queries.sql # Business‑insight queries
+│ ├── health_checks.sql # Data‑quality & fraud checks
+│ └── migration_script.sql # ALTER TABLE examples
+└── README.md # Project overview & setup
+
+
+---
+
+🛠️ **Setup Instructions**
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/yourusername/insurance-claims-insights.git
+   cd insurance-claims-insights
 
